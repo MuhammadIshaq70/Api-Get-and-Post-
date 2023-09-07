@@ -26,7 +26,7 @@ class _PrivacyPolicyState extends State<PrivacyPolicy> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 32, top: 43, right: 32),
+            padding: EdgeInsets.only(left: 32.sp, top: 43.sp, right: 32.sp),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
