@@ -100,6 +100,17 @@ class _HomeScreensItemsState extends State<HomeScreensItems> {
                     SizedBox(
                       height: 24.sp,
                     ),
+                    SizedBox(
+                      height: 10.sp,
+                    ),
+                    Text(
+                      'Lorem ipsum dolor sit amet consectetur. At orci erat bibendum a et urna malesuada quisque sit. Ut aliquam diam amet et imperdiet odio arcu. In vulputate vitae malesuada tristique ultrices quis sed dignissim. Lectus a non dictum vivamus ullamcorper elementum. Ornare a nisl amet amet adipiscing scelerisque.  ',
+                      style: TextStyle(
+                          fontSize: 14.sp, fontWeight: FontWeight.w400),
+                    ),
+                    SizedBox(
+                      height: 24.sp,
+                    ),
                     Text(
                       'Explore more',
                       style: TextStyle(
