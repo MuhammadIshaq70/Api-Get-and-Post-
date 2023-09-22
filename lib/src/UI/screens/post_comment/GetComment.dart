@@ -43,7 +43,7 @@ class PostComment extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
               child: Card(
-                elevation: 5,
+                elevation: 4,
                 color: Colors.white,
                 child: ListTile(
                   title: Text(
