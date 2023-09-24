@@ -1,3 +1,4 @@
+import 'package:api_post_task/src/UI/screens/Home/homeViewModel.dart';
 import 'package:api_post_task/src/UI/screens/SplashScreen/splashScreen.dart';
 import 'package:api_post_task/src/UI/screens/post_comment/getComm_ViewModel.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         designSize: const Size(400, 800),
         builder: (context, child) => MultiProvider(
               providers: [
-                ChangeNotifierProvider(create: (_) => GetApiWithProvider())
+                ChangeNotifierProvider(create: (_) => GetApiWithProvider()),
+                ChangeNotifierProvider(create: (_) => HomeViewModel())
               ],
               child: GetMaterialApp(
                   debugShowCheckedModeBanner: false,

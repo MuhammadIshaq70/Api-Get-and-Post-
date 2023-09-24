@@ -35,11 +35,11 @@ class _PostApiState extends State<PostApi> {
       'email': emailController.text,
       'password': passwordController.text,
     };
-    var bodyy = json.encode(data);
+    // var bodyy = json.encode(data);
     var urlparse = Uri.parse(url);
     Response response = await http.post(
       urlparse,
-      body: bodyy,
+      body: json.encode(data),
     );
     var dataa = jsonDecode(response.body);
     print(dataa);
