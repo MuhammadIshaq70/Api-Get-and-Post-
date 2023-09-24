@@ -8,8 +8,8 @@ class HomeViewModel extends ChangeNotifier {
   List<PostModels> postList = [];
 
   HomeViewModel() {
-    // print("Constrocutor called");
-    // getPost();
+    print("Constrocutor called");
+    getPost();
   }
   //get data with provider in Rest API
 
@@ -29,7 +29,7 @@ class HomeViewModel extends ChangeNotifier {
         postList.add(PostModels().fromJson(i));
       }
 
-      print(postList.length);
+      //  print(postList.length);
 
       // notifyListeners();
 
